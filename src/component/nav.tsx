@@ -1,7 +1,7 @@
 import NavLogo from '../assets/logo-text.png'
 export const Nav = () =>{
     return (
-       <nav className="py-4">
+       <nav className="py-4 fixed w-full bg-white shadow-md z-10">
         <div className = "flex justify-between items-center container mx-auto">
                 <img src={NavLogo} alt="Nav icon" />
             <ul className="flex gap-4">
