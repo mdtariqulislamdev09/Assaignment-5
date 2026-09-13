@@ -1,32 +1,31 @@
-# React + TypeScript + Vite
+//Name//
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Assignment-5
+Dev-Stack-a5
 
-Currently, two official plugins are available:
+//description//
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I made this project for assignment-5
+
+
+// Technologies//
+
+# React + TypeScript + Vite.
+
+# Vs code
 
 ## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+//Feautures//
 
-## Expanding the Oxlint configuration
+Add card and remove card.
+Has Nave var , Banner, Card, Footer
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+//Answer//
+1. Jsx is a file. Where we write html and js combined.
+2. props pase data child component to parent component.State is a data which is changeable.
+3. useState hold data and show in project.I use it in technologies.jsx and technologiesType.jsx .
+4. useEffect is use to give site effect in project.
+5. if has no unique key compailer don't found.
+6. in base of condition show data. in technologies.jsx 42 line I use.
+7. Parent to child using props. Child to parent  using function.
