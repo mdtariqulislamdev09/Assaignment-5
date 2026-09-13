@@ -10,11 +10,12 @@ I made this project for assignment-5
 
 // Technologies//
 
-# React + TypeScript + Vite.
+# React.js
+#Tailwind CSS
+# TypeScript
+# Json
 
-# Vs code
-
-## React Compiler
+# Vite
 
 //Feautures//
 
